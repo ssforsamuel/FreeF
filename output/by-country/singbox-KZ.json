@@ -6,20 +6,18 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇰🇿 KZ 01 - xiaohe",
-        "🇰🇿 KZ 02 - xiaohe",
-        "🇰🇿 KZ 03 - xiaohe",
-        "🇰🇿 KZ 04 - xiaohe"
+        "🇰🇿 KZ 01 - FreeF",
+        "🇰🇿 KZ 02 - FreeF",
+        "🇰🇿 KZ 03 - FreeF"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇰🇿 KZ 01 - xiaohe",
-        "🇰🇿 KZ 02 - xiaohe",
-        "🇰🇿 KZ 03 - xiaohe",
-        "🇰🇿 KZ 04 - xiaohe"
+        "🇰🇿 KZ 01 - FreeF",
+        "🇰🇿 KZ 02 - FreeF",
+        "🇰🇿 KZ 03 - FreeF"
       ],
       "url": "https://www.google.com/generate_204"
     },

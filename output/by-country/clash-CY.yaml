@@ -4,7 +4,19 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇨🇾 CY 01 - xiaohe
+- name: 🇨🇾 CY 01 - FreeF
+  type: vless
+  server: 194.76.154.31
+  port: 40443
+  uuid: 9f0baff8-bdee-4de9-9515-bcc4932b41fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
+  servername: deepl.com
+  client-fingerprint: chrome
+- name: 🇨🇾 CY 02 - FreeF
   type: vless
   server: 45.9.2.171
   port: 8443
@@ -13,7 +25,7 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: torr.wlrus.cfd
-- name: 🇨🇾 CY 02 - xiaohe
+- name: 🇨🇾 CY 03 - FreeF
   type: vless
   server: 194.76.154.31
   port: 40443
@@ -25,7 +37,7 @@ proxies:
     public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
   servername: deepl.com
   client-fingerprint: firefox
-- name: 🇨🇾 CY 03 - xiaohe
+- name: 🇨🇾 CY 04 - FreeF
   type: vless
   server: 194.76.154.31
   port: 40443
@@ -42,16 +54,18 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇨🇾 CY 01 - xiaohe
-  - 🇨🇾 CY 02 - xiaohe
-  - 🇨🇾 CY 03 - xiaohe
+  - 🇨🇾 CY 01 - FreeF
+  - 🇨🇾 CY 02 - FreeF
+  - 🇨🇾 CY 03 - FreeF
+  - 🇨🇾 CY 04 - FreeF
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇨🇾 CY 01 - xiaohe
-  - 🇨🇾 CY 02 - xiaohe
-  - 🇨🇾 CY 03 - xiaohe
+  - 🇨🇾 CY 01 - FreeF
+  - 🇨🇾 CY 02 - FreeF
+  - 🇨🇾 CY 03 - FreeF
+  - 🇨🇾 CY 04 - FreeF
 rules:
 - MATCH,PROXIES

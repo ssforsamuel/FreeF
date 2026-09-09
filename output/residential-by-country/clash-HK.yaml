@@ -4,11 +4,11 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe
+- name: 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - FreeF
   type: vless
-  server: a95a660c-tla000-tpw4i4-1pckg.hk3.hyhuawei.com
+  server: 58.153.148.126
   port: 443
-  uuid: 526a1128-7487-11ee-9bca-f23c913c8d2b
+  uuid: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
   udp: true
   tls: true
   skip-cert-verify: true
@@ -21,12 +21,12 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - FreeF
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - FreeF
 rules:
 - MATCH,PROXIES

@@ -6,14 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇹🇭 TH 01 - xiaohe"
+        "🇹🇭 TH 01 - FreeF"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇭 TH 01 - xiaohe"
+        "🇹🇭 TH 01 - FreeF"
       ],
       "url": "https://www.google.com/generate_204"
     },
