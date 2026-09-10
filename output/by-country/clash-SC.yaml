@@ -5,6 +5,96 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇸🇨 SC 01 - FreeF
+  type: vless
+  server: 141.101.114.241
+  port: 443
+  uuid: 3bb6fd82-3a15-eaea-6168-4dac2b70079e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nahan-fog-af01.dfghttr2012.workers.dev
+  network: ws
+  ws-opts:
+    path: /sync
+    headers:
+      Host: nahan-fog-af01.dfghttr2012.workers.dev
+- name: 🇸🇨 SC 02 - FreeF
+  type: vless
+  server: 45.130.125.96
+  port: 443
+  uuid: 28607fa7-db30-47d6-942a-f5744e4be9ad
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: dfsuporte.garena.com.ex33r.eu.cc
+  network: ws
+  ws-opts:
+    path: /id-pusat
+    headers:
+      Host: dfsuporte.garena.com.ex33r.eu.cc
+- name: 🇸🇨 SC 03 - FreeF
+  type: vmess
+  server: 156.226.183.181
+  port: 54321
+  uuid: d3bcc1f1-6294-4f68-bcf3-c3bcb2001520
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇨 SC 04 - FreeF
+  type: vmess
+  server: 156.226.183.181
+  port: 54321
+  uuid: d3bcc1f1-6294-4f68-bcf3-c3bcb2001520
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇨 SC 05 - FreeF
+  type: vless
+  server: 104.18.0.1
+  port: 443
+  uuid: 3ccba794-1c6d-48a8-acf2-f5caf0e69d86
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: all.speedtest03.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: all.speedtest03.ccwu.cc
+- name: 🇸🇨 SC 06 - FreeF
+  type: vless
+  server: 104.21.55.123
+  port: 443
+  uuid: 95de071f-747c-dc07-36ac-5c0854a9e50e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: restless-boat-ebf2.moha102030.workers.dev
+  network: ws
+  ws-opts:
+    path: /sync
+    headers:
+      Host: restless-boat-ebf2.moha102030.workers.dev
+- name: 🇸🇨 SC 07 - FreeF
+  type: vless
+  server: 188.114.97.7
+  port: 443
+  uuid: ba49d874-fe02-465d-82d3-ed981dc7694f
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: o94yv7lif0-anxisd9efehvvs7mxn6bh.z-ule-ika-d-e-ne-k-e.workers.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: o94yv7lif0-anxisd9efehvvs7mxn6bh.z-ule-ika-d-e-ne-k-e.workers.dev
+- name: 🇸🇨 SC 08 - FreeF
   type: vmess
   server: 156.226.183.181
   port: 54321
@@ -20,11 +110,25 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇸🇨 SC 01 - FreeF
+  - 🇸🇨 SC 02 - FreeF
+  - 🇸🇨 SC 03 - FreeF
+  - 🇸🇨 SC 04 - FreeF
+  - 🇸🇨 SC 05 - FreeF
+  - 🇸🇨 SC 06 - FreeF
+  - 🇸🇨 SC 07 - FreeF
+  - 🇸🇨 SC 08 - FreeF
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇸🇨 SC 01 - FreeF
+  - 🇸🇨 SC 02 - FreeF
+  - 🇸🇨 SC 03 - FreeF
+  - 🇸🇨 SC 04 - FreeF
+  - 🇸🇨 SC 05 - FreeF
+  - 🇸🇨 SC 06 - FreeF
+  - 🇸🇨 SC 07 - FreeF
+  - 🇸🇨 SC 08 - FreeF
 rules:
 - MATCH,PROXIES

@@ -5,44 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇳🇴 NO 01 - FreeF
-  type: ss
-  server: 185.213.23.63
-  port: 990
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  udp: true
-- name: 🇳🇴 NO 02 - FreeF
-  type: ss
-  server: 185.213.23.63
-  port: 990
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  udp: true
-- name: 🇳🇴 NO 03 - FreeF
-  type: vless
-  server: 151.242.168.125
-  port: 390
-  uuid: 7b363f9c-3df9-4b60-a789-9cd36be0bdfe
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: 5RCgAVjaT7hwdVIKAEULswXGqR127ZOZV6X17nEhYk8
-  servername: bowandbead.com
-  client-fingerprint: edge
-- name: 🇳🇴 NO 04 - FreeF
-  type: vless
-  server: 151.242.168.125
-  port: 390
-  uuid: b02ff150-ee30-46e0-9ea1-adbfd7762a06
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: 5RCgAVjaT7hwdVIKAEULswXGqR127ZOZV6X17nEhYk8
-  servername: bowandbead.com
-  client-fingerprint: ios
-- name: 🇳🇴 NO 05 - FreeF
   type: vless
   server: 151.242.168.125
   port: 390
@@ -54,7 +16,19 @@ proxies:
     public-key: 5RCgAVjaT7hwdVIKAEULswXGqR127ZOZV6X17nEhYk8
   servername: bowandbead.com
   client-fingerprint: qq
-- name: 🇳🇴 NO 06 - FreeF
+- name: 🇳🇴 NO 02 - FreeF
+  type: vless
+  server: 151.242.168.125
+  port: 390
+  uuid: 7b363f9c-3df9-4b60-a789-9cd36be0bdfe
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: 5RCgAVjaT7hwdVIKAEULswXGqR127ZOZV6X17nEhYk8
+  servername: bowandbead.com
+  client-fingerprint: edge
+- name: 🇳🇴 NO 03 - FreeF
   type: vless
   server: 151.242.168.125
   port: 390
@@ -66,7 +40,14 @@ proxies:
     public-key: 5RCgAVjaT7hwdVIKAEULswXGqR127ZOZV6X17nEhYk8
   servername: bowandbead.com
   client-fingerprint: chrome
-- name: 🇳🇴 NO 07 - FreeF
+- name: 🇳🇴 NO 04 - FreeF
+  type: ss
+  server: 185.213.23.63
+  port: 990
+  cipher: chacha20-ietf-poly1305
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  udp: true
+- name: 🇳🇴 NO 05 - FreeF
   type: vless
   server: 151.242.168.125
   port: 390
@@ -88,8 +69,6 @@ proxy-groups:
   - 🇳🇴 NO 03 - FreeF
   - 🇳🇴 NO 04 - FreeF
   - 🇳🇴 NO 05 - FreeF
-  - 🇳🇴 NO 06 - FreeF
-  - 🇳🇴 NO 07 - FreeF
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -100,7 +79,5 @@ proxy-groups:
   - 🇳🇴 NO 03 - FreeF
   - 🇳🇴 NO 04 - FreeF
   - 🇳🇴 NO 05 - FreeF
-  - 🇳🇴 NO 06 - FreeF
-  - 🇳🇴 NO 07 - FreeF
 rules:
 - MATCH,PROXIES
