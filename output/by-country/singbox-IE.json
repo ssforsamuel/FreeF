@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇮🇪 IE 01 - FreeF",
+        "🇮🇪 IE 02 - FreeF",
+        "🇮🇪 IE 03 - FreeF"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇮🇪 IE 01 - FreeF",
+        "🇮🇪 IE 02 - FreeF",
+        "🇮🇪 IE 03 - FreeF"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}

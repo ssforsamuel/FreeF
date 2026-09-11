@@ -5,31 +5,22 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇰🇷 韩国 (South Korea) 01 - FreeF
-  type: vless
-  server: 172.64.80.1
-  port: 8880
-  uuid: 5bbf0601-8431-45f6-a4e9-a1e8b44c0055
+  type: ss
+  server: 141.164.45.187
+  port: 6679
+  cipher: aes-256-gcm
+  password: TEzjfAYq2IjtuoS
   udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-    headers:
-      Host: misty-mouse-141d.177-f18.workers.dev
 - name: 🇰🇷 韩国 (South Korea) 02 - FreeF
-  type: vless
-  server: 172.64.94.251
-  port: 8880
-  uuid: 9f4b666c-ecf1-49e9-8ab8-9ae2c4f4c613
+  type: vmess
+  server: 140.238.2.250
+  port: 443
+  uuid: 41a7089a-040b-4538-8b8d-010902405bde
+  alterId: 0
+  cipher: auto
   udp: true
   tls: false
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-    headers:
-      Host: withered-morning-aa51.64-c79.workers.dev
 - name: 🇰🇷 韩国 (South Korea) 03 - FreeF
   type: vmess
   server: 140.238.2.250
@@ -41,12 +32,15 @@ proxies:
   tls: false
   skip-cert-verify: true
 - name: 🇰🇷 韩国 (South Korea) 04 - FreeF
-  type: ss
-  server: 141.164.45.187
-  port: 9090
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
+  type: vmess
+  server: 146.56.112.110
+  port: 8888
+  uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707
+  alterId: 0
+  cipher: auto
   udp: true
+  tls: false
+  skip-cert-verify: true
 - name: 🇰🇷 韩国 (South Korea) 05 - FreeF
   type: ss
   server: 141.164.45.187
@@ -55,106 +49,21 @@ proxies:
   password: RexnBgU7EV5ADxG
   udp: true
 - name: 🇰🇷 韩国 (South Korea) 06 - FreeF
-  type: ss
-  server: 141.164.45.187
-  port: 8888
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
+  type: vmess
+  server: 140.238.2.250
+  port: 443
+  uuid: 41a7089a-040b-4538-8b8d-010902405bde
+  alterId: 0
+  cipher: auto
   udp: true
+  tls: false
+  skip-cert-verify: true
 - name: 🇰🇷 韩国 (South Korea) 07 - FreeF
   type: ss
   server: 141.164.45.187
-  port: 6679
+  port: 9090
   cipher: aes-256-gcm
-  password: TEzjfAYq2IjtuoS
-  udp: true
-- name: 🇰🇷 韩国 (South Korea) 08 - FreeF
-  type: vmess
-  server: 140.238.2.250
-  port: 443
-  uuid: 41a7089a-040b-4538-8b8d-010902405bde
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇰🇷 韩国 (South Korea) 09 - FreeF
-  type: ss
-  server: 141.164.45.187
-  port: 8008
-  cipher: aes-256-gcm
-  password: XKFKl2rULjIp74
-  udp: true
-- name: 🇰🇷 韩国 (South Korea) 10 - FreeF
-  type: vless
-  server: 162.159.140.78
-  port: 8880
-  uuid: c18fd69e-92ba-446e-981b-213dbb551593
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: billowing-wind-5b29.133-323.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 11 - FreeF
-  type: vmess
-  server: 140.238.2.250
-  port: 443
-  uuid: 41a7089a-040b-4538-8b8d-010902405bde
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇰🇷 韩国 (South Korea) 12 - FreeF
-  type: ss
-  server: 141.164.45.187
-  port: 8091
-  cipher: aes-256-gcm
-  password: PCnnH6SQSnfoS27
-  udp: true
-- name: 🇰🇷 韩国 (South Korea) 13 - FreeF
-  type: vmess
-  server: 140.238.2.250
-  port: 443
-  uuid: 41a7089a-040b-4538-8b8d-010902405bde
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇰🇷 韩国 (South Korea) 14 - FreeF
-  type: ss
-  server: 141.164.45.187
-  port: 2376
-  cipher: aes-256-gcm
-  password: faBAoD54k87UJG7
-  udp: true
-- name: 🇰🇷 韩国 (South Korea) 15 - FreeF
-  type: vmess
-  server: 140.238.2.250
-  port: 443
-  uuid: 41a7089a-040b-4538-8b8d-010902405bde
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇰🇷 韩国 (South Korea) 16 - FreeF
-  type: ss
-  server: 141.164.45.187
-  port: 6697
-  cipher: aes-256-gcm
-  password: TEzjfAYq2IjtuoS
-  udp: true
-- name: 🇰🇷 韩国 (South Korea) 17 - FreeF
-  type: ss
-  server: 141.164.45.187
-  port: 9101
-  cipher: aes-256-gcm
-  password: e4FCWrgpkji3QY
+  password: Y6R9pAtvxxzmGC
   udp: true
 proxy-groups:
 - name: PROXIES
@@ -168,16 +77,6 @@ proxy-groups:
   - 🇰🇷 韩国 (South Korea) 05 - FreeF
   - 🇰🇷 韩国 (South Korea) 06 - FreeF
   - 🇰🇷 韩国 (South Korea) 07 - FreeF
-  - 🇰🇷 韩国 (South Korea) 08 - FreeF
-  - 🇰🇷 韩国 (South Korea) 09 - FreeF
-  - 🇰🇷 韩国 (South Korea) 10 - FreeF
-  - 🇰🇷 韩国 (South Korea) 11 - FreeF
-  - 🇰🇷 韩国 (South Korea) 12 - FreeF
-  - 🇰🇷 韩国 (South Korea) 13 - FreeF
-  - 🇰🇷 韩国 (South Korea) 14 - FreeF
-  - 🇰🇷 韩国 (South Korea) 15 - FreeF
-  - 🇰🇷 韩国 (South Korea) 16 - FreeF
-  - 🇰🇷 韩国 (South Korea) 17 - FreeF
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -190,15 +89,5 @@ proxy-groups:
   - 🇰🇷 韩国 (South Korea) 05 - FreeF
   - 🇰🇷 韩国 (South Korea) 06 - FreeF
   - 🇰🇷 韩国 (South Korea) 07 - FreeF
-  - 🇰🇷 韩国 (South Korea) 08 - FreeF
-  - 🇰🇷 韩国 (South Korea) 09 - FreeF
-  - 🇰🇷 韩国 (South Korea) 10 - FreeF
-  - 🇰🇷 韩国 (South Korea) 11 - FreeF
-  - 🇰🇷 韩国 (South Korea) 12 - FreeF
-  - 🇰🇷 韩国 (South Korea) 13 - FreeF
-  - 🇰🇷 韩国 (South Korea) 14 - FreeF
-  - 🇰🇷 韩国 (South Korea) 15 - FreeF
-  - 🇰🇷 韩国 (South Korea) 16 - FreeF
-  - 🇰🇷 韩国 (South Korea) 17 - FreeF
 rules:
 - MATCH,PROXIES
