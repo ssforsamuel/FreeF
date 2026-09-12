@@ -6,64 +6,53 @@ log-level: info
 proxies:
 - name: 🇨🇦 加拿大 (Canada) 01 - FreeF
   type: ss
-  server: 51.222.155.113
-  port: 5601
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
+  server: 149.22.95.183
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
   udp: true
 - name: 🇨🇦 加拿大 (Canada) 02 - FreeF
-  type: ss
-  server: 51.222.200.165
-  port: 5000
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-  udp: true
-- name: 🇨🇦 加拿大 (Canada) 03 - FreeF
   type: ss
   server: 51.79.85.185
   port: 8118
   cipher: aes-256-gcm
   password: cdBIDV42DCwnfIN
   udp: true
-- name: 🇨🇦 加拿大 (Canada) 04 - FreeF
-  type: vmess
-  server: 134.195.196.211
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇨🇦 加拿大 (Canada) 05 - FreeF
-  type: vmess
-  server: 134.195.196.211
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇨🇦 加拿大 (Canada) 06 - FreeF
-  type: vless
-  server: 184.107.106.68
+- name: 🇨🇦 加拿大 (Canada) 03 - FreeF
+  type: ss
+  server: ca225.vpnbook.com
   port: 443
-  uuid: 716426fa-bcb7-4eb9-b460-36399ebf740d
+  cipher: chacha20-ietf-poly1305
+  password: 3ssumf2
   udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 184.107.106.68
+- name: 🇨🇦 加拿大 (Canada) 04 - FreeF
+  type: ss
+  server: 15.235.75.71
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: FD3rCuOsxOay
+  udp: true
+- name: 🇨🇦 加拿大 (Canada) 05 - FreeF
+  type: ss
+  server: 51.222.200.165
+  port: 5000
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+  udp: true
+- name: 🇨🇦 加拿大 (Canada) 06 - FreeF
+  type: ss
+  server: 142.4.216.225
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: 3ssumf2
+  udp: true
 - name: 🇨🇦 加拿大 (Canada) 07 - FreeF
-  type: vmess
-  server: 134.195.196.211
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
+  type: ss
+  server: 149.22.95.183
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
   udp: true
-  tls: false
-  skip-cert-verify: true
 - name: 🇨🇦 加拿大 (Canada) 08 - FreeF
   type: ss
   server: 51.222.12.127
@@ -72,6 +61,13 @@ proxies:
   password: zDNVedRFPQexG9v
   udp: true
 - name: 🇨🇦 加拿大 (Canada) 09 - FreeF
+  type: ss
+  server: 51.79.49.116
+  port: 8882
+  cipher: aes-256-gcm
+  password: kDWvXYZoTBcGkC4
+  udp: true
+- name: 🇨🇦 加拿大 (Canada) 10 - FreeF
   type: vmess
   server: 23.162.200.198
   port: 18000
@@ -81,30 +77,28 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇨🇦 加拿大 (Canada) 10 - FreeF
-  type: ss
-  server: 51.79.64.198
-  port: 8119
-  cipher: aes-256-gcm
-  password: cdBIDV42DCwnfIN
-  udp: true
 - name: 🇨🇦 加拿大 (Canada) 11 - FreeF
-  type: ss
-  server: 142.4.216.225
+  type: vless
+  server: 184.107.106.68
   port: 443
-  cipher: chacha20-ietf-poly1305
-  password: 3ssumf2
+  uuid: 716426fa-bcb7-4eb9-b460-36399ebf740d
   udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lizca2.footballfantasyforum.com
 - name: 🇨🇦 加拿大 (Canada) 12 - FreeF
-  type: ss
-  server: 15.235.75.71
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: FD3rCuOsxOay
-  udp: true
-- name: 🇨🇦 加拿大 (Canada) 13 - FreeF
   type: vmess
   server: 23.162.200.198
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇨🇦 加拿大 (Canada) 13 - FreeF
+  type: vmess
+  server: 134.195.196.211
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -114,38 +108,37 @@ proxies:
   skip-cert-verify: true
 - name: 🇨🇦 加拿大 (Canada) 14 - FreeF
   type: ss
-  server: 51.222.155.32
-  port: 5003
-  cipher: aes-256-gcm
-  password: g5MeD6Ft3CWlJId
+  server: 15.235.75.71
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: FD3rCuOsxOay
   udp: true
 - name: 🇨🇦 加拿大 (Canada) 15 - FreeF
-  type: ss
-  server: 51.79.49.116
-  port: 8882
-  cipher: aes-256-gcm
-  password: kDWvXYZoTBcGkC4
+  type: vmess
+  server: 134.195.196.211
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
   udp: true
-- name: 🇨🇦 加拿大 (Canada) 16 - FreeF
-  type: vless
-  server: 104.24.31.89
-  port: 443
-  uuid: aebe5a70-0ca3-46ce-8208-8b5bab1346ce
-  udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: rAyAn-007.nAsTaRaN.DpDnS.OrG
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: rayan-007.nastaran.dpdns.org
+- name: 🇨🇦 加拿大 (Canada) 16 - FreeF
+  type: vmess
+  server: 134.195.196.211
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
 - name: 🇨🇦 加拿大 (Canada) 17 - FreeF
   type: ss
-  server: 149.22.95.183
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
+  server: 51.79.64.198
+  port: 8119
+  cipher: aes-256-gcm
+  password: cdBIDV42DCwnfIN
   udp: true
 - name: 🇨🇦 加拿大 (Canada) 18 - FreeF
   type: vmess
@@ -167,23 +160,22 @@ proxies:
   skip-cert-verify: true
   servername: lizca2.footballfantasyforum.com
 - name: 🇨🇦 加拿大 (Canada) 20 - FreeF
-  type: vless
-  server: 184.107.106.68
-  port: 443
-  uuid: 716426fa-bcb7-4eb9-b460-36399ebf740d
+  type: vmess
+  server: 23.162.200.198
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: lizca2.footballfantasyforum.com
 - name: 🇨🇦 加拿大 (Canada) 21 - FreeF
-  type: vless
-  server: 184.107.106.68
-  port: 443
-  uuid: 716426fa-bcb7-4eb9-b460-36399ebf740d
+  type: ss
+  server: 51.222.12.127
+  port: 445
+  cipher: aes-256-gcm
+  password: zDNVedRFPQexG9v
   udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 184.107.106.68
 - name: 🇨🇦 加拿大 (Canada) 22 - FreeF
   type: vmess
   server: 134.195.196.211
@@ -196,42 +188,12 @@ proxies:
   skip-cert-verify: true
 - name: 🇨🇦 加拿大 (Canada) 23 - FreeF
   type: ss
-  server: 51.222.12.127
-  port: 445
-  cipher: aes-256-gcm
-  password: zDNVedRFPQexG9v
-  udp: true
-- name: 🇨🇦 加拿大 (Canada) 24 - FreeF
-  type: ss
-  server: ca225.vpnbook.com
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: 3ssumf2
-  udp: true
-- name: 🇨🇦 加拿大 (Canada) 25 - FreeF
-  type: vless
-  server: lizca2.footballfantasyforum.com
-  port: 443
-  uuid: 716426fa-bcb7-4eb9-b460-36399ebf740d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lizca2.footballfantasyforum.com
-- name: 🇨🇦 加拿大 (Canada) 26 - FreeF
-  type: ss
-  server: 51.222.136.236
-  port: 8882
-  cipher: aes-256-gcm
-  password: kDWvXYZoTBcGkC4
-  udp: true
-- name: 🇨🇦 加拿大 (Canada) 27 - FreeF
-  type: ss
   server: 51.222.141.125
   port: 445
   cipher: aes-256-gcm
   password: zDNVedRFPQexG9v
   udp: true
-- name: 🇨🇦 加拿大 (Canada) 28 - FreeF
+- name: 🇨🇦 加拿大 (Canada) 24 - FreeF
   type: vmess
   server: 23.162.200.198
   port: 18000
@@ -241,7 +203,7 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇨🇦 加拿大 (Canada) 29 - FreeF
+- name: 🇨🇦 加拿大 (Canada) 25 - FreeF
   type: vmess
   server: 134.195.196.211
   port: 18000
@@ -251,24 +213,7 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇨🇦 加拿大 (Canada) 30 - FreeF
-  type: vmess
-  server: 134.195.196.211
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇨🇦 加拿大 (Canada) 31 - FreeF
-  type: ss
-  server: 15.235.75.71
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: FD3rCuOsxOay
-  udp: true
-- name: 🇨🇦 加拿大 (Canada) 32 - FreeF
+- name: 🇨🇦 加拿大 (Canada) 26 - FreeF
   type: vless
   server: 148.113.196.75
   port: 8443
@@ -282,26 +227,14 @@ proxies:
     path: /vless/
     headers:
       Host: 148.113.196.75
-- name: 🇨🇦 加拿大 (Canada) 33 - FreeF
-  type: vmess
-  server: 23.162.200.198
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
+- name: 🇨🇦 加拿大 (Canada) 27 - FreeF
+  type: ss
+  server: 51.222.155.113
+  port: 5601
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
   udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇨🇦 加拿大 (Canada) 34 - FreeF
-  type: vless
-  server: 184.107.106.68
-  port: 443
-  uuid: 716426fa-bcb7-4eb9-b460-36399ebf740d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 184.107.106.68
-- name: 🇨🇦 加拿大 (Canada) 35 - FreeF
+- name: 🇨🇦 加拿大 (Canada) 28 - FreeF
   type: vmess
   server: 134.195.196.211
   port: 18000
@@ -311,22 +244,6 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇨🇦 加拿大 (Canada) 36 - FreeF
-  type: vmess
-  server: 158.51.121.63
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: seribus.org
-  network: ws
-  ws-opts:
-    path: linkvws
-    headers:
-      Host: seribus.org
 proxy-groups:
 - name: PROXIES
   type: select
@@ -360,14 +277,6 @@ proxy-groups:
   - 🇨🇦 加拿大 (Canada) 26 - FreeF
   - 🇨🇦 加拿大 (Canada) 27 - FreeF
   - 🇨🇦 加拿大 (Canada) 28 - FreeF
-  - 🇨🇦 加拿大 (Canada) 29 - FreeF
-  - 🇨🇦 加拿大 (Canada) 30 - FreeF
-  - 🇨🇦 加拿大 (Canada) 31 - FreeF
-  - 🇨🇦 加拿大 (Canada) 32 - FreeF
-  - 🇨🇦 加拿大 (Canada) 33 - FreeF
-  - 🇨🇦 加拿大 (Canada) 34 - FreeF
-  - 🇨🇦 加拿大 (Canada) 35 - FreeF
-  - 🇨🇦 加拿大 (Canada) 36 - FreeF
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -401,13 +310,5 @@ proxy-groups:
   - 🇨🇦 加拿大 (Canada) 26 - FreeF
   - 🇨🇦 加拿大 (Canada) 27 - FreeF
   - 🇨🇦 加拿大 (Canada) 28 - FreeF
-  - 🇨🇦 加拿大 (Canada) 29 - FreeF
-  - 🇨🇦 加拿大 (Canada) 30 - FreeF
-  - 🇨🇦 加拿大 (Canada) 31 - FreeF
-  - 🇨🇦 加拿大 (Canada) 32 - FreeF
-  - 🇨🇦 加拿大 (Canada) 33 - FreeF
-  - 🇨🇦 加拿大 (Canada) 34 - FreeF
-  - 🇨🇦 加拿大 (Canada) 35 - FreeF
-  - 🇨🇦 加拿大 (Canada) 36 - FreeF
 rules:
 - MATCH,PROXIES
