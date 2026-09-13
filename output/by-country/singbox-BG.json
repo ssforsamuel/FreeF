@@ -6,22 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇧🇬 BG 01 - FreeF",
-        "🇧🇬 BG 02 - FreeF",
-        "🇧🇬 BG 03 - FreeF",
-        "🇧🇬 BG 04 - FreeF",
-        "🇧🇬 BG 05 - FreeF"
+        "🇧🇬 BG 01 - FreeF"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇬 BG 01 - FreeF",
-        "🇧🇬 BG 02 - FreeF",
-        "🇧🇬 BG 03 - FreeF",
-        "🇧🇬 BG 04 - FreeF",
-        "🇧🇬 BG 05 - FreeF"
+        "🇧🇬 BG 01 - FreeF"
       ],
       "url": "https://www.google.com/generate_204"
     },
