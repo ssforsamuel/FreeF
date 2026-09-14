@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇺🇿 UZ 01 - FreeF",
+        "🇺🇿 UZ 02 - FreeF",
+        "🇺🇿 UZ 03 - FreeF",
+        "🇺🇿 UZ 04 - FreeF",
+        "🇺🇿 UZ 05 - FreeF"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇺🇿 UZ 01 - FreeF",
+        "🇺🇿 UZ 02 - FreeF",
+        "🇺🇿 UZ 03 - FreeF",
+        "🇺🇿 UZ 04 - FreeF",
+        "🇺🇿 UZ 05 - FreeF"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}
