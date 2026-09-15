@@ -6,14 +6,18 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇳 印度 (India) 01 - FreeF"
+        "🇮🇳 印度 (India) 01 - FreeF",
+        "🇮🇳 印度 (India) 02 - FreeF",
+        "🇮🇳 印度 (India) 03 - FreeF"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇳 印度 (India) 01 - FreeF"
+        "🇮🇳 印度 (India) 01 - FreeF",
+        "🇮🇳 印度 (India) 02 - FreeF",
+        "🇮🇳 印度 (India) 03 - FreeF"
       ],
       "url": "https://www.google.com/generate_204"
     },

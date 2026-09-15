@@ -6,14 +6,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇱 CL 01 - FreeF"
+        "🇸🇦 SA 01 - FreeF",
+        "🇸🇦 SA 02 - FreeF"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇱 CL 01 - FreeF"
+        "🇸🇦 SA 01 - FreeF",
+        "🇸🇦 SA 02 - FreeF"
       ],
       "url": "https://www.google.com/generate_204"
     },
