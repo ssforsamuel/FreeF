@@ -6,24 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇵🇱 PL 01 - FreeF",
-        "🇵🇱 PL 02 - FreeF",
-        "🇵🇱 PL 03 - FreeF",
-        "🇵🇱 PL 04 - FreeF",
-        "🇵🇱 PL 05 - FreeF",
-        "🇵🇱 PL 06 - FreeF"
+        "🇵🇱 PL 01 - FreeF"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇵🇱 PL 01 - FreeF",
-        "🇵🇱 PL 02 - FreeF",
-        "🇵🇱 PL 03 - FreeF",
-        "🇵🇱 PL 04 - FreeF",
-        "🇵🇱 PL 05 - FreeF",
-        "🇵🇱 PL 06 - FreeF"
+        "🇵🇱 PL 01 - FreeF"
       ],
       "url": "https://www.google.com/generate_204"
     },
