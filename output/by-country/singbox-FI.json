@@ -6,14 +6,22 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇱🇻 LV 01 - FreeF"
+        "🇫🇮 FI 01 - FreeF",
+        "🇫🇮 FI 02 - FreeF",
+        "🇫🇮 FI 03 - FreeF",
+        "🇫🇮 FI 04 - FreeF",
+        "🇫🇮 FI 05 - FreeF"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇱🇻 LV 01 - FreeF"
+        "🇫🇮 FI 01 - FreeF",
+        "🇫🇮 FI 02 - FreeF",
+        "🇫🇮 FI 03 - FreeF",
+        "🇫🇮 FI 04 - FreeF",
+        "🇫🇮 FI 05 - FreeF"
       ],
       "url": "https://www.google.com/generate_204"
     },
