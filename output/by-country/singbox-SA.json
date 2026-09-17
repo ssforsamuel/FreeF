@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇸🇦 SA 01 - FreeF",
+        "🇸🇦 SA 02 - FreeF",
+        "🇸🇦 SA 03 - FreeF",
+        "🇸🇦 SA 04 - FreeF",
+        "🇸🇦 SA 05 - FreeF",
+        "🇸🇦 SA 06 - FreeF",
+        "🇸🇦 SA 07 - FreeF",
+        "🇸🇦 SA 08 - FreeF",
+        "🇸🇦 SA 09 - FreeF",
+        "🇸🇦 SA 10 - FreeF",
+        "🇸🇦 SA 11 - FreeF",
+        "🇸🇦 SA 12 - FreeF",
+        "🇸🇦 SA 13 - FreeF",
+        "🇸🇦 SA 14 - FreeF",
+        "🇸🇦 SA 15 - FreeF",
+        "🇸🇦 SA 16 - FreeF",
+        "🇸🇦 SA 17 - FreeF"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇸🇦 SA 01 - FreeF",
+        "🇸🇦 SA 02 - FreeF",
+        "🇸🇦 SA 03 - FreeF",
+        "🇸🇦 SA 04 - FreeF",
+        "🇸🇦 SA 05 - FreeF",
+        "🇸🇦 SA 06 - FreeF",
+        "🇸🇦 SA 07 - FreeF",
+        "🇸🇦 SA 08 - FreeF",
+        "🇸🇦 SA 09 - FreeF",
+        "🇸🇦 SA 10 - FreeF",
+        "🇸🇦 SA 11 - FreeF",
+        "🇸🇦 SA 12 - FreeF",
+        "🇸🇦 SA 13 - FreeF",
+        "🇸🇦 SA 14 - FreeF",
+        "🇸🇦 SA 15 - FreeF",
+        "🇸🇦 SA 16 - FreeF",
+        "🇸🇦 SA 17 - FreeF"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}

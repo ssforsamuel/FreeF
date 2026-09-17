@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇨🇿 CZ 01 - FreeF",
+        "🇨🇿 CZ 02 - FreeF",
+        "🇨🇿 CZ 03 - FreeF",
+        "🇨🇿 CZ 04 - FreeF",
+        "🇨🇿 CZ 05 - FreeF",
+        "🇨🇿 CZ 06 - FreeF",
+        "🇨🇿 CZ 07 - FreeF",
+        "🇨🇿 CZ 08 - FreeF",
+        "🇨🇿 CZ 09 - FreeF",
+        "🇨🇿 CZ 10 - FreeF"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇨🇿 CZ 01 - FreeF",
+        "🇨🇿 CZ 02 - FreeF",
+        "🇨🇿 CZ 03 - FreeF",
+        "🇨🇿 CZ 04 - FreeF",
+        "🇨🇿 CZ 05 - FreeF",
+        "🇨🇿 CZ 06 - FreeF",
+        "🇨🇿 CZ 07 - FreeF",
+        "🇨🇿 CZ 08 - FreeF",
+        "🇨🇿 CZ 09 - FreeF",
+        "🇨🇿 CZ 10 - FreeF"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}

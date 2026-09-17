@@ -1,0 +1,290 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: rule
+log-level: info
+proxies:
+- name: 🇸🇦 SA 01 - FreeF
+  type: vless
+  server: 91.209.253.25
+  port: 443
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nb.lovecf.ggff.net
+  network: ws
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: nb.lovecf.ggff.net
+- name: 🇸🇦 SA 02 - FreeF
+  type: vless
+  server: 64.225.110.247
+  port: 2083
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cdn8848.776676.xyz
+  network: ws
+  ws-opts:
+    path: /acg/buy/ajax?ed=2560fp=chrome
+    headers:
+      Host: cdn8848.776676.xyz
+- name: 🇸🇦 SA 03 - FreeF
+  type: vless
+  server: 91.209.253.243
+  port: 443
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nb.lovecf.ggff.net
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: nb.lovecf.ggff.net
+- name: 🇸🇦 SA 04 - FreeF
+  type: vless
+  server: 91.209.253.244
+  port: 443
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nb.lovecf.ggff.net
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: nb.lovecf.ggff.net
+- name: 🇸🇦 SA 05 - FreeF
+  type: vless
+  server: 91.209.253.216
+  port: 443
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nb.lovecf.ggff.net
+  network: ws
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: nb.lovecf.ggff.net
+- name: 🇸🇦 SA 06 - FreeF
+  type: vless
+  server: 91.209.253.229
+  port: 443
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nb.lovecf.ggff.net
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: nb.lovecf.ggff.net
+- name: 🇸🇦 SA 07 - FreeF
+  type: vless
+  server: 91.209.253.216
+  port: 443
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nb.lovecf.ggff.net
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: nb.lovecf.ggff.net
+- name: 🇸🇦 SA 08 - FreeF
+  type: vless
+  server: 91.209.253.42
+  port: 443
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nb.lovecf.ggff.net
+  network: ws
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: nb.lovecf.ggff.net
+- name: 🇸🇦 SA 09 - FreeF
+  type: vless
+  server: 91.209.253.25
+  port: 443
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nb.lovecf.ggff.net
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: nb.lovecf.ggff.net
+- name: 🇸🇦 SA 10 - FreeF
+  type: vless
+  server: 91.209.253.109
+  port: 443
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nb.lovecf.ggff.net
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: nb.lovecf.ggff.net
+- name: 🇸🇦 SA 11 - FreeF
+  type: vless
+  server: 91.209.253.119
+  port: 443
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nb.lovecf.ggff.net
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: nb.lovecf.ggff.net
+- name: 🇸🇦 SA 12 - FreeF
+  type: vless
+  server: 91.209.253.109
+  port: 443
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nb.lovecf.ggff.net
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: nb.lovecf.ggff.net
+- name: 🇸🇦 SA 13 - FreeF
+  type: vless
+  server: 91.209.253.68
+  port: 443
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nb.lovecf.ggff.net
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: nb.lovecf.ggff.net
+- name: 🇸🇦 SA 14 - FreeF
+  type: vless
+  server: 91.209.253.250
+  port: 443
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nb.lovecf.ggff.net
+  network: ws
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: nb.lovecf.ggff.net
+- name: 🇸🇦 SA 15 - FreeF
+  type: vless
+  server: 91.209.253.68
+  port: 443
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nb.lovecf.ggff.net
+  network: ws
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: nb.lovecf.ggff.net
+- name: 🇸🇦 SA 16 - FreeF
+  type: vless
+  server: 91.209.253.250
+  port: 443
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nb.lovecf.ggff.net
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: nb.lovecf.ggff.net
+- name: 🇸🇦 SA 17 - FreeF
+  type: vless
+  server: 91.209.253.42
+  port: 443
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nb.lovecf.ggff.net
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: nb.lovecf.ggff.net
+proxy-groups:
+- name: PROXIES
+  type: select
+  proxies:
+  - AUTO
+  - 🇸🇦 SA 01 - FreeF
+  - 🇸🇦 SA 02 - FreeF
+  - 🇸🇦 SA 03 - FreeF
+  - 🇸🇦 SA 04 - FreeF
+  - 🇸🇦 SA 05 - FreeF
+  - 🇸🇦 SA 06 - FreeF
+  - 🇸🇦 SA 07 - FreeF
+  - 🇸🇦 SA 08 - FreeF
+  - 🇸🇦 SA 09 - FreeF
+  - 🇸🇦 SA 10 - FreeF
+  - 🇸🇦 SA 11 - FreeF
+  - 🇸🇦 SA 12 - FreeF
+  - 🇸🇦 SA 13 - FreeF
+  - 🇸🇦 SA 14 - FreeF
+  - 🇸🇦 SA 15 - FreeF
+  - 🇸🇦 SA 16 - FreeF
+  - 🇸🇦 SA 17 - FreeF
+- name: AUTO
+  type: url-test
+  url: https://www.google.com/generate_204
+  interval: 300
+  proxies:
+  - 🇸🇦 SA 01 - FreeF
+  - 🇸🇦 SA 02 - FreeF
+  - 🇸🇦 SA 03 - FreeF
+  - 🇸🇦 SA 04 - FreeF
+  - 🇸🇦 SA 05 - FreeF
+  - 🇸🇦 SA 06 - FreeF
+  - 🇸🇦 SA 07 - FreeF
+  - 🇸🇦 SA 08 - FreeF
+  - 🇸🇦 SA 09 - FreeF
+  - 🇸🇦 SA 10 - FreeF
+  - 🇸🇦 SA 11 - FreeF
+  - 🇸🇦 SA 12 - FreeF
+  - 🇸🇦 SA 13 - FreeF
+  - 🇸🇦 SA 14 - FreeF
+  - 🇸🇦 SA 15 - FreeF
+  - 🇸🇦 SA 16 - FreeF
+  - 🇸🇦 SA 17 - FreeF
+rules:
+- MATCH,PROXIES
