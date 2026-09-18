@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇸🇨 SC 01 - FreeF",
+        "🇸🇨 SC 02 - FreeF",
+        "🇸🇨 SC 03 - FreeF",
+        "🇸🇨 SC 04 - FreeF",
+        "🇸🇨 SC 05 - FreeF",
+        "🇸🇨 SC 06 - FreeF",
+        "🇸🇨 SC 07 - FreeF"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇸🇨 SC 01 - FreeF",
+        "🇸🇨 SC 02 - FreeF",
+        "🇸🇨 SC 03 - FreeF",
+        "🇸🇨 SC 04 - FreeF",
+        "🇸🇨 SC 05 - FreeF",
+        "🇸🇨 SC 06 - FreeF",
+        "🇸🇨 SC 07 - FreeF"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}
