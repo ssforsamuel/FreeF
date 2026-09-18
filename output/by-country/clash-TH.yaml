@@ -6,29 +6,72 @@ log-level: info
 proxies:
 - name: 🇹🇭 TH 01 - FreeF
   type: vless
-  server: 104.18.26.90
+  server: 43.160.220.86
   port: 443
-  uuid: 3c52e091-6714-4915-949f-2149fe69951b
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: v2ray.simspeedup.com
+  servername: cdn8848.776676.xyz
+  network: ws
+  ws-opts:
+    path: /buy/uploads?ed=2560
+    headers:
+      Host: cdn8848.776676.xyz
+- name: 🇹🇭 TH 02 - FreeF
+  type: vless
+  server: 103.86.49.57
+  port: 80
+  uuid: 3c52e091-6714-4915-949f-2149fe69951b
+  udp: true
+  tls: false
+  skip-cert-verify: true
   network: ws
   ws-opts:
     path: /ws
     headers:
-      Host: v2ray.simspeedup.com
+      Host: aIs.SpEeDtEsT.nEt
+- name: 🇹🇭 TH 03 - FreeF
+  type: vless
+  server: 34.15.162.1
+  port: 443
+  uuid: 2b1d0c2a-9c80-4b72-892e-93d0500b9210
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇹🇭 TH 04 - FreeF
+  type: vless
+  server: 34.15.162.1
+  port: 443
+  uuid: 2b1d0c2a-9c80-4b72-892e-93d0500b9210
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw
+  servername: www.cloudflare.com
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇹🇭 TH 01 - FreeF
+  - 🇹🇭 TH 02 - FreeF
+  - 🇹🇭 TH 03 - FreeF
+  - 🇹🇭 TH 04 - FreeF
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇹🇭 TH 01 - FreeF
+  - 🇹🇭 TH 02 - FreeF
+  - 🇹🇭 TH 03 - FreeF
+  - 🇹🇭 TH 04 - FreeF
 rules:
 - MATCH,PROXIES
