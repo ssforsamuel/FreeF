@@ -20,48 +20,7 @@ proxies:
       Host: nb.lovecf.ggff.net
 - name: 🇨🇿 CZ 02 - FreeF
   type: vless
-  server: 45.130.125.126
-  port: 443
-  uuid: b69b43d1-091d-4d7c-90b2-7a8bbad9d6a9
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: BItter-CreDIT-61b8.b76EbA0aBb.wORkerS.dEv
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiY0U2T212Y21yeEhUZHRKYSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
-    headers:
-      Host: BItter-CreDIT-61b8.b76EbA0aBb.wORkerS.dEv
-- name: 🇨🇿 CZ 03 - FreeF
-  type: vless
-  server: chat.openai.com
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime29.workers.dev
-- name: 🇨🇿 CZ 04 - FreeF
-  type: vless
-  server: 172.67.203.158
-  port: 443
-  uuid: 911b84e1-d046-4fbf-bfc0-c168791115ef
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 12ygbae0k3gn0z0f.mehrshadhaddadi8.workers.dev
-  network: ws
-  ws-opts:
-    path: /vl/YCNmDFbqMu7cgTzgsfEWGtBD8kR
-    headers:
-      Host: 12ygbae0k3gn0z0f.mehrshadhaddadi8.workers.dev
-- name: 🇨🇿 CZ 05 - FreeF
-  type: vless
-  server: 195.85.23.217
+  server: 195.85.23.47
   port: 443
   uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   udp: true
@@ -73,9 +32,9 @@ proxies:
     path: /proxyip=us.xiabibi.cf
     headers:
       Host: nb.lovecf.ggff.net
-- name: 🇨🇿 CZ 06 - FreeF
+- name: 🇨🇿 CZ 03 - FreeF
   type: vless
-  server: 195.85.23.219
+  server: 195.85.23.217
   port: 443
   uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   udp: true
@@ -95,9 +54,6 @@ proxy-groups:
   - 🇨🇿 CZ 01 - FreeF
   - 🇨🇿 CZ 02 - FreeF
   - 🇨🇿 CZ 03 - FreeF
-  - 🇨🇿 CZ 04 - FreeF
-  - 🇨🇿 CZ 05 - FreeF
-  - 🇨🇿 CZ 06 - FreeF
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -106,8 +62,5 @@ proxy-groups:
   - 🇨🇿 CZ 01 - FreeF
   - 🇨🇿 CZ 02 - FreeF
   - 🇨🇿 CZ 03 - FreeF
-  - 🇨🇿 CZ 04 - FreeF
-  - 🇨🇿 CZ 05 - FreeF
-  - 🇨🇿 CZ 06 - FreeF
 rules:
 - MATCH,PROXIES
