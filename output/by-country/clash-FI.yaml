@@ -6,21 +6,21 @@ log-level: info
 proxies:
 - name: 🇫🇮 FI 01 - FreeF
   type: vless
-  server: 104.18.38.47
-  port: 2087
+  server: 104.16.10.185
+  port: 443
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
   network: ws
   ws-opts:
-    path: ?ed=2560
+    path: /?ed=2560
     headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
 - name: 🇫🇮 FI 02 - FreeF
   type: vless
-  server: 212.104.128.139
+  server: 212.104.128.106
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -33,29 +33,8 @@ proxies:
     headers:
       Host: xi.tbv.ccwu.cc
 - name: 🇫🇮 FI 03 - FreeF
-  type: ss
-  server: 82.47.186.18
-  port: 19290
-  cipher: aes-128-gcm
-  password: o2rw2hICwu1blrr_gZAl2Q
-  udp: true
-- name: 🇫🇮 FI 04 - FreeF
   type: vless
-  server: 212.104.128.27
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇫🇮 FI 05 - FreeF
-  type: vless
-  server: 212.104.128.68
+  server: 212.104.128.45
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -67,35 +46,7 @@ proxies:
     path: /proxyip=us.xiabibi.cf
     headers:
       Host: xi.tbv.ccwu.cc
-- name: 🇫🇮 FI 06 - FreeF
-  type: vless
-  server: 104.16.150.108
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: ?ed=2560
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🇫🇮 FI 07 - FreeF
-  type: vless
-  server: 212.104.128.152
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇫🇮 FI 08 - FreeF
+- name: 🇫🇮 FI 04 - FreeF
   type: vless
   server: a2.arshia-nova.ir
   port: 443
@@ -109,9 +60,9 @@ proxies:
     path: /
     headers:
       Host: c12.com
-- name: 🇫🇮 FI 09 - FreeF
+- name: 🇫🇮 FI 05 - FreeF
   type: vless
-  server: 212.104.128.244
+  server: 212.104.128.152
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -120,10 +71,52 @@ proxies:
   servername: xi.tbv.ccwu.cc
   network: ws
   ws-opts:
-    path: /proxyip=us.xiabibi.cf
+    path: /
     headers:
       Host: xi.tbv.ccwu.cc
-- name: 🇫🇮 FI 10 - FreeF
+- name: 🇫🇮 FI 06 - FreeF
+  type: vless
+  server: 212.104.128.27
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: xi.tbv.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: xi.tbv.ccwu.cc
+- name: 🇫🇮 FI 07 - FreeF
+  type: vless
+  server: a2.arshia-nova.ir
+  port: 443
+  uuid: 9503e890-3702-4847-af0a-2bceac2f0da0
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ssl.fastly.com
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: c12.com
+- name: 🇫🇮 FI 08 - FreeF
+  type: vless
+  server: 104.18.38.47
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: ?ed=2560
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🇫🇮 FI 09 - FreeF
   type: vless
   server: 212.104.128.106
   port: 443
@@ -137,37 +130,23 @@ proxies:
     path: /
     headers:
       Host: xi.tbv.ccwu.cc
-- name: 🇫🇮 FI 11 - FreeF
+- name: 🇫🇮 FI 10 - FreeF
   type: vless
-  server: 212.104.128.152
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇫🇮 FI 12 - FreeF
-  type: vless
-  server: 188.114.97.6
+  server: 104.18.42.54
   port: 2087
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   network: ws
   ws-opts:
-    path: /?ed=2560
+    path: ?ed=2560
     headers:
-      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
-- name: 🇫🇮 FI 13 - FreeF
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🇫🇮 FI 11 - FreeF
   type: vless
-  server: 212.104.128.206
+  server: fi1.zuoai.cf
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -195,8 +174,6 @@ proxy-groups:
   - 🇫🇮 FI 09 - FreeF
   - 🇫🇮 FI 10 - FreeF
   - 🇫🇮 FI 11 - FreeF
-  - 🇫🇮 FI 12 - FreeF
-  - 🇫🇮 FI 13 - FreeF
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -213,7 +190,5 @@ proxy-groups:
   - 🇫🇮 FI 09 - FreeF
   - 🇫🇮 FI 10 - FreeF
   - 🇫🇮 FI 11 - FreeF
-  - 🇫🇮 FI 12 - FreeF
-  - 🇫🇮 FI 13 - FreeF
 rules:
 - MATCH,PROXIES
