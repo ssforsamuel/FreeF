@@ -6,14 +6,18 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇩 ID 01 - FreeF"
+        "🇮🇩 ID 01 - FreeF",
+        "🇮🇩 ID 02 - FreeF",
+        "🇮🇩 ID 03 - FreeF"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇩 ID 01 - FreeF"
+        "🇮🇩 ID 01 - FreeF",
+        "🇮🇩 ID 02 - FreeF",
+        "🇮🇩 ID 03 - FreeF"
       ],
       "url": "https://www.google.com/generate_204"
     },
