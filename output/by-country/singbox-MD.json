@@ -6,14 +6,20 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇲🇩 MD 01 - FreeF"
+        "🇲🇩 MD 01 - FreeF",
+        "🇲🇩 MD 02 - FreeF",
+        "🇲🇩 MD 03 - FreeF",
+        "🇲🇩 MD 04 - FreeF"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇲🇩 MD 01 - FreeF"
+        "🇲🇩 MD 01 - FreeF",
+        "🇲🇩 MD 02 - FreeF",
+        "🇲🇩 MD 03 - FreeF",
+        "🇲🇩 MD 04 - FreeF"
       ],
       "url": "https://www.google.com/generate_204"
     },
