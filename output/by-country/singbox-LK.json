@@ -6,20 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇾 CY 01 - FreeF",
-        "🇨🇾 CY 02 - FreeF",
-        "🇨🇾 CY 03 - FreeF",
-        "🇨🇾 CY 04 - FreeF"
+        "🇱🇰 LK 01 - FreeF"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇾 CY 01 - FreeF",
-        "🇨🇾 CY 02 - FreeF",
-        "🇨🇾 CY 03 - FreeF",
-        "🇨🇾 CY 04 - FreeF"
+        "🇱🇰 LK 01 - FreeF"
       ],
       "url": "https://www.google.com/generate_204"
     },
