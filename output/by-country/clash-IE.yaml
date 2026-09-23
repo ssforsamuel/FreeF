@@ -6,22 +6,8 @@ log-level: info
 proxies:
 - name: 🇮🇪 IE 01 - FreeF
   type: vless
-  server: 107.150.20.112
-  port: 8443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shuma.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
-- name: 🇮🇪 IE 02 - FreeF
-  type: vless
-  server: 198.55.102.68
-  port: 2083
+  server: 167.160.177.68
+  port: 2096
   uuid: c18b978e-1c4e-415c-8bea-07942b563a64
   udp: true
   tls: true
@@ -38,13 +24,11 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇮🇪 IE 01 - FreeF
-  - 🇮🇪 IE 02 - FreeF
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇮🇪 IE 01 - FreeF
-  - 🇮🇪 IE 02 - FreeF
 rules:
 - MATCH,PROXIES
