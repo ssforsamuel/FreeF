@@ -6,14 +6,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇱🇰 LK 01 - FreeF"
+        "🇱🇰 LK 01 - FreeF",
+        "🇱🇰 LK 02 - FreeF"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇱🇰 LK 01 - FreeF"
+        "🇱🇰 LK 01 - FreeF",
+        "🇱🇰 LK 02 - FreeF"
       ],
       "url": "https://www.google.com/generate_204"
     },
