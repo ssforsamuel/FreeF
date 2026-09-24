@@ -6,14 +6,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇰🇷 韩国 (South Korea) 01 (家宽) - FreeF"
+        "🇿🇦 ZA 01 - FreeF",
+        "🇿🇦 ZA 02 - FreeF"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇰🇷 韩国 (South Korea) 01 (家宽) - FreeF"
+        "🇿🇦 ZA 01 - FreeF",
+        "🇿🇦 ZA 02 - FreeF"
       ],
       "url": "https://www.google.com/generate_204"
     },
