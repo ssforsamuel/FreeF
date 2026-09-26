@@ -6,18 +6,18 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇸🇨 SC 01 - FreeF",
-        "🇸🇨 SC 02 - FreeF",
-        "🇸🇨 SC 03 - FreeF"
+        "🇮🇪 IE 01 - FreeF",
+        "🇮🇪 IE 02 - FreeF",
+        "🇮🇪 IE 03 - FreeF"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇸🇨 SC 01 - FreeF",
-        "🇸🇨 SC 02 - FreeF",
-        "🇸🇨 SC 03 - FreeF"
+        "🇮🇪 IE 01 - FreeF",
+        "🇮🇪 IE 02 - FreeF",
+        "🇮🇪 IE 03 - FreeF"
       ],
       "url": "https://www.google.com/generate_204"
     },
