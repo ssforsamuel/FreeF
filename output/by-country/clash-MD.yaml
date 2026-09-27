@@ -4,25 +4,30 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇮🇷 IR 01 - FreeF
+- name: 🇲🇩 MD 01 - FreeF
   type: vless
-  server: service.erisrtg.ir
-  port: 9098
-  uuid: 9730ec36-a1d8-4cae-a246-fde2678be5df
+  server: 143.246.219.51
+  port: 8081
+  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
   udp: true
   tls: false
   skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless-test
+    headers:
+      Host: 143.246.219.51
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇮🇷 IR 01 - FreeF
+  - 🇲🇩 MD 01 - FreeF
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇮🇷 IR 01 - FreeF
+  - 🇲🇩 MD 01 - FreeF
 rules:
 - MATCH,PROXIES
