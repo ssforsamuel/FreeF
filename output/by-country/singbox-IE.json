@@ -7,8 +7,7 @@
       "outbounds": [
         "auto",
         "🇮🇪 IE 01 - FreeF",
-        "🇮🇪 IE 02 - FreeF",
-        "🇮🇪 IE 03 - FreeF"
+        "🇮🇪 IE 02 - FreeF"
       ]
     },
     {
@@ -16,8 +15,7 @@
       "tag": "auto",
       "outbounds": [
         "🇮🇪 IE 01 - FreeF",
-        "🇮🇪 IE 02 - FreeF",
-        "🇮🇪 IE 03 - FreeF"
+        "🇮🇪 IE 02 - FreeF"
       ],
       "url": "https://www.google.com/generate_204"
     },
