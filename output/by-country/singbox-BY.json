@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇧🇾 BY 01 - FreeF",
+        "🇧🇾 BY 02 - FreeF",
+        "🇧🇾 BY 03 - FreeF",
+        "🇧🇾 BY 04 - FreeF",
+        "🇧🇾 BY 05 - FreeF",
+        "🇧🇾 BY 06 - FreeF"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇧🇾 BY 01 - FreeF",
+        "🇧🇾 BY 02 - FreeF",
+        "🇧🇾 BY 03 - FreeF",
+        "🇧🇾 BY 04 - FreeF",
+        "🇧🇾 BY 05 - FreeF",
+        "🇧🇾 BY 06 - FreeF"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}
