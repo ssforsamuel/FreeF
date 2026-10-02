@@ -15,20 +15,6 @@ proxies:
   tls: false
   skip-cert-verify: true
 - name: 🇯🇵 日本 (Japan) 02 - FreeF
-  type: vless
-  server: 104.16.10.234
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 03 - FreeF
   type: vmess
   server: 45.32.57.118
   port: 4433
@@ -38,36 +24,14 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 04 - FreeF
+- name: 🇯🇵 日本 (Japan) 03 - FreeF
   type: ss
-  server: 84.247.155.196
-  port: 80
-  cipher: aes-256-gcm
-  password: 3eOFeNssde7PYYMv
-  udp: true
-- name: 🇯🇵 日本 (Japan) 05 - FreeF
-  type: ss
-  server: 149.22.87.240
+  server: 149.22.87.204
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: 🇯🇵 日本 (Japan) 06 - FreeF
-  type: vmess
-  server: 168.138.43.75
-  port: 80
-  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /cctv13.m3u8
-    headers:
-      Host: ''
-- name: 🇯🇵 日本 (Japan) 07 - FreeF
+- name: 🇯🇵 日本 (Japan) 04 - FreeF
   type: vless
   server: 137.220.221.179
   port: 443
@@ -75,6 +39,42 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
+- name: 🇯🇵 日本 (Japan) 05 - FreeF
+  type: vless
+  server: 137.220.221.179
+  port: 443
+  uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇯🇵 日本 (Japan) 06 - FreeF
+  type: vless
+  server: 43.130.241.204
+  port: 443
+  uuid: 8344360f-0349-4784-a19f-33fd92e89389
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: api.w2m.ink
+  network: ws
+  ws-opts:
+    path: /v2
+    headers:
+      Host: api.w2m.ink
+- name: 🇯🇵 日本 (Japan) 07 - FreeF
+  type: vless
+  server: 45.14.106.64
+  port: 443
+  uuid: 8344360f-0349-4784-a19f-33fd92e89389
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: api.w2m.ink
+  network: ws
+  ws-opts:
+    path: /v2
+    headers:
+      Host: api.w2m.ink
 - name: 🇯🇵 日本 (Japan) 08 - FreeF
   type: vless
   server: 137.220.221.179
@@ -84,120 +84,16 @@ proxies:
   tls: false
   skip-cert-verify: true
 - name: 🇯🇵 日本 (Japan) 09 - FreeF
-  type: vless
-  server: 137.220.221.179
-  port: 443
-  uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
+  type: vmess
+  server: 45.32.57.118
+  port: 4433
+  uuid: 35b89832-0a7c-48dd-8d1c-a2891b522195
+  alterId: 0
+  cipher: auto
   udp: true
   tls: false
   skip-cert-verify: true
 - name: 🇯🇵 日本 (Japan) 10 - FreeF
-  type: ss
-  server: 149.22.87.204
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇯🇵 日本 (Japan) 11 - FreeF
-  type: vmess
-  server: 45.32.57.118
-  port: 4433
-  uuid: 35b89832-0a7c-48dd-8d1c-a2891b522195
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 12 - FreeF
-  type: vmess
-  server: 45.32.57.118
-  port: 4433
-  uuid: 35b89832-0a7c-48dd-8d1c-a2891b522195
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 13 - FreeF
-  type: vless
-  server: 172.67.217.240
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 14 - FreeF
-  type: vmess
-  server: 45.32.57.118
-  port: 4433
-  uuid: 35b89832-0a7c-48dd-8d1c-a2891b522195
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 15 - FreeF
-  type: vless
-  server: 103.27.187.162
-  port: 8443
-  uuid: 273e3ba1-ef63-47c1-88db-c368bf1e8736
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cfbb.dongkunjian.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: cfbb.dongkunjian.ccwu.cc
-- name: 🇯🇵 日本 (Japan) 16 - FreeF
-  type: vmess
-  server: 45.32.57.118
-  port: 4433
-  uuid: 35b89832-0a7c-48dd-8d1c-a2891b522195
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 17 - FreeF
-  type: vmess
-  server: 45.32.57.118
-  port: 4433
-  uuid: 35b89832-0a7c-48dd-8d1c-a2891b522195
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 18 - FreeF
-  type: vless
-  server: 92.113.124.38
-  port: 443
-  uuid: 273e3ba1-ef63-47c1-88db-c368bf1e8736
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cfbb.dongkunjian.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: cfbb.dongkunjian.ccwu.cc
-- name: 🇯🇵 日本 (Japan) 19 - FreeF
-  type: ss
-  server: 149.22.87.204
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇯🇵 日本 (Japan) 20 - FreeF
   type: vmess
   server: 168.138.43.75
   port: 80
@@ -212,7 +108,90 @@ proxies:
     path: /cctv13.m3u8
     headers:
       Host: jp01.a0a.xyz
-- name: 🇯🇵 日本 (Japan) 21 - FreeF
+- name: 🇯🇵 日本 (Japan) 11 - FreeF
+  type: vless
+  server: 104.17.50.53
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 12 - FreeF
+  type: vmess
+  server: 45.32.57.118
+  port: 4433
+  uuid: 35b89832-0a7c-48dd-8d1c-a2891b522195
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇯🇵 日本 (Japan) 13 - FreeF
+  type: vmess
+  server: 168.138.43.75
+  port: 80
+  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /cctv13.m3u8
+    headers:
+      Host: jp01.a0a.xyz
+- name: 🇯🇵 日本 (Japan) 14 - FreeF
+  type: ss
+  server: 149.22.87.241
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇯🇵 日本 (Japan) 15 - FreeF
+  type: ss
+  server: 84.247.155.196
+  port: 443
+  cipher: aes-256-gcm
+  password: 3eOFeNssde7PYYMv
+  udp: true
+- name: 🇯🇵 日本 (Japan) 16 - FreeF
+  type: vmess
+  server: 168.138.43.75
+  port: 80
+  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /cctv13.m3u8
+    headers:
+      Host: jp01.a0a.xyz
+- name: 🇯🇵 日本 (Japan) 17 - FreeF
+  type: vmess
+  server: 168.138.43.75
+  port: 80
+  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /cctv13.m3u8
+    headers:
+      Host: none
+- name: 🇯🇵 日本 (Japan) 18 - FreeF
   type: vmess
   server: 168.138.43.75
   port: 80
@@ -227,20 +206,61 @@ proxies:
     path: /cctv13.m3u8
     headers:
       Host: ''
+- name: 🇯🇵 日本 (Japan) 19 - FreeF
+  type: vless
+  server: 137.220.221.179
+  port: 443
+  uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇯🇵 日本 (Japan) 20 - FreeF
+  type: vmess
+  server: 168.138.43.75
+  port: 80
+  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /cctv13.m3u8
+    headers:
+      Host: ''
+- name: 🇯🇵 日本 (Japan) 21 - FreeF
+  type: vless
+  server: 207.57.131.171
+  port: 443
+  uuid: 8344360f-0349-4784-a19f-33fd92e89389
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: api.w2m.ink
+  network: ws
+  ws-opts:
+    path: /v2
+    headers:
+      Host: api.w2m.ink
 - name: 🇯🇵 日本 (Japan) 22 - FreeF
-  type: ss
-  server: 149.22.87.241
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
+  type: vmess
+  server: 45.32.57.118
+  port: 4433
+  uuid: 35b89832-0a7c-48dd-8d1c-a2891b522195
+  alterId: 0
+  cipher: auto
   udp: true
+  tls: false
+  skip-cert-verify: true
 - name: 🇯🇵 日本 (Japan) 23 - FreeF
-  type: ss
-  server: 84.247.155.196
+  type: vless
+  server: 137.220.221.179
   port: 443
-  cipher: aes-256-gcm
-  password: 3eOFeNssde7PYYMv
+  uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
   udp: true
+  tls: false
+  skip-cert-verify: true
 - name: 🇯🇵 日本 (Japan) 24 - FreeF
   type: vless
   server: 137.220.221.179
@@ -249,36 +269,6 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 25 - FreeF
-  type: vless
-  server: 137.220.221.179
-  port: 443
-  uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 26 - FreeF
-  type: vless
-  server: 137.220.221.179
-  port: 443
-  uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 27 - FreeF
-  type: vless
-  server: 180.149.230.33
-  port: 443
-  uuid: 273e3ba1-ef63-47c1-88db-c368bf1e8736
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cfbb.dongkunjian.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: cfbb.dongkunjian.ccwu.cc
 proxy-groups:
 - name: PROXIES
   type: select
@@ -308,9 +298,6 @@ proxy-groups:
   - 🇯🇵 日本 (Japan) 22 - FreeF
   - 🇯🇵 日本 (Japan) 23 - FreeF
   - 🇯🇵 日本 (Japan) 24 - FreeF
-  - 🇯🇵 日本 (Japan) 25 - FreeF
-  - 🇯🇵 日本 (Japan) 26 - FreeF
-  - 🇯🇵 日本 (Japan) 27 - FreeF
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -340,8 +327,5 @@ proxy-groups:
   - 🇯🇵 日本 (Japan) 22 - FreeF
   - 🇯🇵 日本 (Japan) 23 - FreeF
   - 🇯🇵 日本 (Japan) 24 - FreeF
-  - 🇯🇵 日本 (Japan) 25 - FreeF
-  - 🇯🇵 日本 (Japan) 26 - FreeF
-  - 🇯🇵 日本 (Japan) 27 - FreeF
 rules:
 - MATCH,PROXIES

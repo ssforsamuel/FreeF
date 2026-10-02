@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇰🇬 KG 01 - FreeF",
+        "🇰🇬 KG 02 - FreeF",
+        "🇰🇬 KG 03 - FreeF",
+        "🇰🇬 KG 04 - FreeF",
+        "🇰🇬 KG 05 - FreeF",
+        "🇰🇬 KG 06 - FreeF",
+        "🇰🇬 KG 07 - FreeF",
+        "🇰🇬 KG 08 - FreeF",
+        "🇰🇬 KG 09 - FreeF",
+        "🇰🇬 KG 10 - FreeF"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇰🇬 KG 01 - FreeF",
+        "🇰🇬 KG 02 - FreeF",
+        "🇰🇬 KG 03 - FreeF",
+        "🇰🇬 KG 04 - FreeF",
+        "🇰🇬 KG 05 - FreeF",
+        "🇰🇬 KG 06 - FreeF",
+        "🇰🇬 KG 07 - FreeF",
+        "🇰🇬 KG 08 - FreeF",
+        "🇰🇬 KG 09 - FreeF",
+        "🇰🇬 KG 10 - FreeF"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}
