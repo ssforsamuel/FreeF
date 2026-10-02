@@ -6,8 +6,8 @@ log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - FreeF
   type: vless
-  server: 172.64.229.2
-  port: 80
+  server: 162.159.38.127
+  port: 2082
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
@@ -19,147 +19,43 @@ proxies:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 - name: 🌐 其他地区 (Other) 02 - FreeF
   type: vless
-  server: 188.114.97.6
+  server: geo.shkola112.site
   port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  uuid: 76ac91c5-ea82-4046-8ee7-2ffbb563ac94
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: a.cwvps.eu.org
+  servername: geo.shkola112.site
   network: ws
   ws-opts:
-    path: /ws
+    path: /api-vless
     headers:
-      Host: a.cwvps.eu.org
+      Host: geo.shkola112.site
 - name: 🌐 其他地区 (Other) 03 - FreeF
   type: vless
-  server: 104.18.34.14
-  port: 2082
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 04 - FreeF
-  type: vless
-  server: 188.114.97.6
-  port: 2095
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 05 - FreeF
-  type: vless
-  server: 172.64.154.8
-  port: 80
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 06 - FreeF
-  type: vless
-  server: 104.18.39.218
-  port: 80
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 07 - FreeF
-  type: vless
-  server: 188.114.97.6
+  server: 172.67.156.147
   port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: a.cwvps.eu.org
+  servername: jp3.yohototo.top
   network: ws
   ws-opts:
-    path: /ws
+    path: /tyxyws
     headers:
-      Host: a.cwvps.eu.org
-- name: 🌐 其他地区 (Other) 08 - FreeF
+      Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 04 - FreeF
   type: vless
-  server: 188.114.97.6
-  port: 2095
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 09 - FreeF
-  type: vless
-  server: 172.64.52.6
+  server: 172.64.150.28
   port: 2082
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 10 - FreeF
-  type: vless
-  server: 104.18.46.46
-  port: 8080
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 11 - FreeF
-  type: vless
-  server: 108.162.198.178
-  port: 8080
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 12 - FreeF
-  type: vless
-  server: 104.18.0.181
-  port: 8080
   uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /sg-melbi
+    path: /fp
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
 proxy-groups:
@@ -171,14 +67,6 @@ proxy-groups:
   - 🌐 其他地区 (Other) 02 - FreeF
   - 🌐 其他地区 (Other) 03 - FreeF
   - 🌐 其他地区 (Other) 04 - FreeF
-  - 🌐 其他地区 (Other) 05 - FreeF
-  - 🌐 其他地区 (Other) 06 - FreeF
-  - 🌐 其他地区 (Other) 07 - FreeF
-  - 🌐 其他地区 (Other) 08 - FreeF
-  - 🌐 其他地区 (Other) 09 - FreeF
-  - 🌐 其他地区 (Other) 10 - FreeF
-  - 🌐 其他地区 (Other) 11 - FreeF
-  - 🌐 其他地区 (Other) 12 - FreeF
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -188,13 +76,5 @@ proxy-groups:
   - 🌐 其他地区 (Other) 02 - FreeF
   - 🌐 其他地区 (Other) 03 - FreeF
   - 🌐 其他地区 (Other) 04 - FreeF
-  - 🌐 其他地区 (Other) 05 - FreeF
-  - 🌐 其他地区 (Other) 06 - FreeF
-  - 🌐 其他地区 (Other) 07 - FreeF
-  - 🌐 其他地区 (Other) 08 - FreeF
-  - 🌐 其他地区 (Other) 09 - FreeF
-  - 🌐 其他地区 (Other) 10 - FreeF
-  - 🌐 其他地区 (Other) 11 - FreeF
-  - 🌐 其他地区 (Other) 12 - FreeF
 rules:
 - MATCH,PROXIES
