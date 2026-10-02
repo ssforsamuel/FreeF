@@ -6,16 +6,20 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇺🇸 美国 (United States) 01 (家宽) - FreeF",
-        "🇺🇸 美国 (United States) 02 (家宽) - FreeF"
+        "🇨🇾 CY 01 - FreeF",
+        "🇨🇾 CY 02 - FreeF",
+        "🇨🇾 CY 03 - FreeF",
+        "🇨🇾 CY 04 - FreeF"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇺🇸 美国 (United States) 01 (家宽) - FreeF",
-        "🇺🇸 美国 (United States) 02 (家宽) - FreeF"
+        "🇨🇾 CY 01 - FreeF",
+        "🇨🇾 CY 02 - FreeF",
+        "🇨🇾 CY 03 - FreeF",
+        "🇨🇾 CY 04 - FreeF"
       ],
       "url": "https://www.google.com/generate_204"
     },
