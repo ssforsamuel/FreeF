@@ -6,14 +6,28 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇾 CY 01 - FreeF"
+        "🇨🇾 CY 01 - FreeF",
+        "🇨🇾 CY 02 - FreeF",
+        "🇨🇾 CY 03 - FreeF",
+        "🇨🇾 CY 04 - FreeF",
+        "🇨🇾 CY 05 - FreeF",
+        "🇨🇾 CY 06 - FreeF",
+        "🇨🇾 CY 07 - FreeF",
+        "🇨🇾 CY 08 - FreeF"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇾 CY 01 - FreeF"
+        "🇨🇾 CY 01 - FreeF",
+        "🇨🇾 CY 02 - FreeF",
+        "🇨🇾 CY 03 - FreeF",
+        "🇨🇾 CY 04 - FreeF",
+        "🇨🇾 CY 05 - FreeF",
+        "🇨🇾 CY 06 - FreeF",
+        "🇨🇾 CY 07 - FreeF",
+        "🇨🇾 CY 08 - FreeF"
       ],
       "url": "https://www.google.com/generate_204"
     },
