@@ -6,22 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇰🇬 KG 01 - FreeF",
-        "🇰🇬 KG 02 - FreeF",
-        "🇰🇬 KG 03 - FreeF",
-        "🇰🇬 KG 04 - FreeF",
-        "🇰🇬 KG 05 - FreeF"
+        "🇺🇸 美国 (United States) 01 (家宽) - FreeF"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇰🇬 KG 01 - FreeF",
-        "🇰🇬 KG 02 - FreeF",
-        "🇰🇬 KG 03 - FreeF",
-        "🇰🇬 KG 04 - FreeF",
-        "🇰🇬 KG 05 - FreeF"
+        "🇺🇸 美国 (United States) 01 (家宽) - FreeF"
       ],
       "url": "https://www.google.com/generate_204"
     },
